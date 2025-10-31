@@ -35,21 +35,17 @@ The project showcases end-to-end **API integration**, **data wrangling**, **feat
    ```
    git clone https://github.com/albarreras/nyt-news-analyzer.git
    cd nyt-news-analyzer
-
-3. Install required libraries
-   ```   
-    pip install requests pandas matplotlib seaborn numpy
   
-4. Create your API key file. Inside the project folder, create config.py:
+2. Create your API key file. Inside the project folder, create config.py:
    ```
     API_KEY = "your-nyt-api-key-here"
 
-5. Run the main program
+3. Run the main program
     ```
     python nyt_news_analyzer.py
 
  
-6. You’ll be prompted to:
+4. You’ll be prompted to:
 
 - Select a section (e.g., “Arts”, “Sports”, “Technology”)
 
@@ -57,7 +53,7 @@ The project showcases end-to-end **API integration**, **data wrangling**, **feat
 
 - Choose periodicity (daily / weekly / monthly)
 
-7. Output:
+5. Output:
 
 - A CSV file saved to /data/ containing fetched articles
 
@@ -77,15 +73,4 @@ Keyword	Frequency
 - Pop and Rock Music	6
 - Hong Kong / Art Basel	5
 
-## Visualizations Produced
-
-- Top 10 keyword frequency bar chart
-
-- Keyword trend lines over time
-
-- Article publication volume line chart
-
-- Author publication trends (top 10)
-
-- Keyword + Author frequency analysis with time-based grouping
 
