@@ -23,7 +23,7 @@ The project showcases end-to-end **API integration**, **data wrangling**, **feat
 
 | File | Description |
 |------|--------------|
-| `nyt_news_analyzer.py` | Main Python script containing all data functions and the `main()` workflow. |
+| `nyt_news_analyzer.ipynb` | Main Python script containing all data functions and the `main()` workflow. |
 | `nyt_news_analyzer.pdf` | Rendered workflow report showing outputs, plots, and analysis summary. |
 
 
